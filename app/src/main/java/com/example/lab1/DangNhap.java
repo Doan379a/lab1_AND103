@@ -40,7 +40,7 @@ public class DangNhap extends AppCompatActivity {
         btn_dang_nhapotp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DangNhap.this,LoginPhoneNumber.class));
+                startActivity(new Intent(DangNhap.this,lay_OTP.class));
             }
         });
         btnDangKy.setOnClickListener(new View.OnClickListener() {
